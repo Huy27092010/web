@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <!-- CSS header -->
+        <link rel="stylesheet" href="/frontend/css/main/header.css">
+        <!-- CSS main -->
+        <link rel="stylesheet" href="/frontend/css/main/main.css">
+        <!-- javascript hỗ trợ css-->
+        <script src="/frontend/js/main.js" defer></script>     
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <div class="header1">
+                    <a href="/frontend/public/">
+                        <img src="/frontend/assets/lqdbluearchive.png" alt="" width="" height="48">
+                    </a>
+                </div>
+                
+                <div class="header2">
+                    <button><img src="/frontend/assets/menu.png" alt="" width="16" height="16"></button>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <div class="main">
+                <div class="btn-form">    
+                    <div class="btn-form">
+                        <p id="btn-text">Đăng nhập</p>
+                    </div>
+                    <div class="btn-form">
+                        <p id="btn-text">Đăng kí</p>
+                    </div>
+                </div>
+                <div class="log-reg-form">
+                    <div class="login-form">
+                        <form action="login" id="login">
+                            <input class="input" type="text" placeholder="Tên tài khoản"><br>
+                            <input class="input" type="password" placeholder="Mật khẩu"><br>
+                            <input type="button" value="Đăng nhập">
+                        </form>
+                    </div>
+                    <div class="register-form">
+                        <form action="register" id="register">
+                            <input class="input" type="text" placeholder="Tên tài khoản"><br>
+                            <input class="input" type="password" placeholder="Mật khẩu"><br>
+                            <input type="button" value="Đăng kíkí">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

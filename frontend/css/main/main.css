@@ -1,0 +1,36 @@
+.main{
+    border: 1px solid;
+    width: 85%;
+    margin: auto;
+    height: max-content;
+}
+
+.btn-form{
+    display: flex;
+    align-items: center;
+}
+
+.btn-form, .log-reg-form{
+    border: 1px solid;
+    font-family: 'calibri';
+}
+
+.btn-form{
+    height: 25px;
+}
+
+form{
+    border: 1px solid; /*temp*/
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+#login{
+    display: block;
+}
+#register{
+    display: none;
+}
