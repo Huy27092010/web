@@ -1,6 +1,7 @@
-Dự án blog cá nhân  └── ├── │
+# Dự án blog cá nhân
 
-WEB
+```
+WEB/
 ├── backend/
 │   └── data/
 │       └── user-data.json
@@ -14,14 +15,15 @@ WEB
 │   │   │   └── header.css
 │   │   └── main/
 │   │       └── index.css
-│   └── js/
-│       └── main.js
+│   ├── js/
+│   │   └── main.js
 ├── public/
 │   └── uploads/
-├── .gitignore
 ├── index.html
+├── server.js
 ├── README.md
-└── server.js
+└── .gitignore
+```
 
-Khó khăn 1:
-└── web reponsive
+## Khó khăn 1:
+- Web responsive 😭
