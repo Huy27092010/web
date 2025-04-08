@@ -1,0 +1,66 @@
+/*main*/
+.main {
+    max-width: 600px; /* hoặc 100%, tùy mục đích */
+    width: 100%;
+    margin: 3rem auto 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.btn-form {
+    display: flex;
+    align-items: center;
+}
+.btn-form, .log-reg-form {
+    border: 1px solid;
+    font-family: 'calibri';
+}
+.btn-form {
+    height: 1.5625rem; /* 25px → 1.5625rem */
+}
+.btn-form div:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+p {
+    padding: 0.75rem; /* 12px → 0.75rem */
+}
+form {
+    margin: auto;
+    margin-top: 1.875rem; /* 30px → 1.875rem */
+    margin-bottom: 1.875rem; /* 30px → 1.875rem */
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.login-form {
+    display: block;
+}
+.register-form {
+    display: none;
+}
+input {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+#btn-log-reg{
+    cursor: pointer;
+}

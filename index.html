@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <!-- header -->
+        <link rel="stylesheet" href="/frontend/css/layouts/header.css">
+        <link rel="stylesheet" href="/frontend/css/main/index.css">
+        <!-- javascript hỗ trợ css-->
+         <script src="/frontend/js/main.js" defer></script> 
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <div class="header1">
+                    <a href="/">
+                        <img src="/frontend/assets/lqdbluearchive.png" alt="" width="" height="48">
+                    </a>
+                </div>
+                
+                <div class="header2">
+                    <button id="menu-btn">
+                        <img src="/frontend/assets/menu.png" alt="" width="16" height="16">
+                    </button>
+                    <div id="menu" class="menu hidden">
+                        <ul>
+                            <li><a href="/">Trang chủ</a></li>
+                            <li><a href="/about">Giới thiệu</a></li>
+                            <li><a href="/blog">Bài viết</a></li>
+                            <li><a href="/contact">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        
+        <main id="main">
+            <div class="main">
+                <div class="btn-form">    
+                    <div class="btn-form">
+                        <p id="btn-text">Đăng nhập</p>
+                    </div>
+                    <div class="btn-form">
+                        <p id="btn-text">Đăng kí</p>
+                    </div>
+                    
+                </div>
+                <div class="log-reg-form">
+                    <div class="login-form">
+                        <form id="login">
+                            <input class="input" type="text" placeholder="Tên tài khoản"><br>
+                            <input class="input" type="password" placeholder="Mật khẩu"><br>
+                            <input id="btn-log-reg" type="button" value="Đăng nhập">
+                        </form>
+                    </div>
+                    <div class="register-form">
+                        <form id="register">
+                            <input class="input" type="text" placeholder="Tên tài khoản"><br>
+                            <input class="input" type="password" placeholder="Mật khẩu"><br>
+                            <input id="btn-log-reg" type="button" value="Đăng kí">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <!-- Chưa có gì -->
+        </footer>
+            
+    </body>
+</html>

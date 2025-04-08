@@ -1,0 +1,87 @@
+/*WEB ANIMATION*/
+body{
+    opacity: 0; /* Ban đầu ẩn toàn bộ nội dung */
+    transform: translateY(-15px); /* Đẩy toàn bộ nội dung lên trên một chút */
+    animation: slideDownFull 0.425s ease-out 0s forwards; /* Áp dụng animation cho body */
+}
+@keyframes slideDownFull {
+    0% {
+        opacity: 0.125;
+        transform: translateY(-15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*header*/
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem 0rem 4rem;
+    margin-top: 1rem;
+}
+@media (min-width: 300px) and (max-width: 660px) {
+    .header-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+.header1 {
+    width: auto;
+    height: 3rem; /* 48px → 3rem */
+}
+.header2 {
+    width: auto;
+    height: 1.375rem; /* 22px → 1.375rem */
+}
+.header1 img {
+    width: 100%;
+    height: auto;
+    max-height: 3rem; /* 48px → 3rem */
+    object-fit: contain;
+}
+.header2 img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+#menu-btn {
+    width: auto;
+    height: 1.0625rem; /* 25px → 1.5625rem */
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/*menu*/
+.menu {
+    position: absolute;
+    top: 2rem; /* dưới header */
+    right: 4rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 1000;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    margin: 0.5rem 0;
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+.hidden {
+    display: none;
+}
